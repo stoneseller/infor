@@ -1,0 +1,10 @@
+conda create -n 이름 python==3.9
+conda activate 이름
+
+pip install streamlit
+pip install pandas
+
+mkidr 이름2
+cd 이름2
+
+streamlit run app.py
